@@ -1,7 +1,7 @@
 # SingleActivityProject
 Single Activity Pattern with Multiple Fragments
 
-Android XYZTouristAttractions Sample
+Single Activity Pattern
 ===================================
 
 
