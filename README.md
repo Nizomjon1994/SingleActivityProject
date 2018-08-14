@@ -4,54 +4,6 @@ Single Activity Pattern with Multiple Fragments
 Android XYZTouristAttractions Sample
 ===================================
 
-This sample aims to be as close to a real world example of a mobile
-and Wear app combination as possible. It has a more refined design
-and also provides a practical example of how a mobile app would
-interact and communicate with its wear counterpart.
-
-The app itself is modeled after a hypothetical tourist attractions
-app that notifies the user when they are in close proximity to
-notable points of interest.
-
-The Wear component shows tourist attraction images and summary
-information, and provides quick actions for nearby tourist
-attractions in a [GridViewPager](http://developer.android.com/reference/android/support/wearable/view/GridViewPager.html)
-UI component.
-
-Introduction
-------------
-
-Steps for trying out this sample:
-* Compile and install the mobile app onto your mobile device or emulator.
-* Compile and install the wearable app onto your Wear device or emulator.
-(**Note:** wearable apps are not automatically pushed from your mobile device
-unless you build a production release, see [here][22] for more info).
-* Start the mobile app and use the overflow menu options to test either a
-notification enhanced for Wear, or the full wearable application (unless
-you're physically in Sydney in which case the geofence should trigger
-automatically). Note that the first time you trigger either the notification
-or the wearable app it may take 20-30 seconds to show up as it needs to
-transfer the image assets to the wearable (in practice this delay won't be
-noticeable to users as they will only be notified once the data has been sent).
-
-This sample aims to demonstrate a number of different Android APIs and concepts
-relating to [Wear][1] and location using [Google Play Services][2]:
-* Trigger a mobile notification that uses [WearableExtender][3] to customize the
-display on the wearable
-* Transmit data from the mobile app to the wearable (including binary blobs
-such as photos) using the [Wearable DataApi][4]
-* Synchronize notification dismissal across mobile and wearable apps via the
-[Wearable MessageApi][5]
-* Trigger actions on the mobile app via the wearable app (eg. start walking
-navigation) via the [Wearable MessageApi][5]
-* Locate the user via the [Google Location APIs][6] and the
-[FusedLocationProviderApi][7]
-* Set up and trigger location [geofences][8] using the
-[Google Location APIs][6]
-
-The sample also focuses on providing a simple, yet clean design and UI for both
-mobile and wearable apps with an extra level of visual polish compared to a
-traditional code sample.
 
 Some of the UI widgets and design patterns used in the mobile app include:
 * Use of Material theme including definition of primary and accent colors
@@ -122,8 +74,6 @@ Support
 - Google+ Community: https://plus.google.com/communities/105153134372062985968
 - Stack Overflow: http://stackoverflow.com/questions/tagged/android
 
-If you've found an error in this sample, please file an issue:
-https://github.com/googlesamples/android-XYZTouristAttractions
 
 Patches are encouraged, and may be submitted by forking this project and
 submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
