@@ -23,33 +23,6 @@ The wearable app uses a number of techniques and UI widgets as well:
 ([DismissOverlayView][18], [ConfirmationActivity][19],
 [CardScrollView][20], [CircledImageView][21], [ActionPage][26])
 
-[1]: http://developer.android.com/wear/
-[2]: https://developer.android.com/google/play-services/
-[3]: https://developer.android.com/reference/android/support/v4/app/NotificationCompat.WearableExtender.html
-[4]: https://developer.android.com/reference/com/google/android/gms/wearable/DataApi.html
-[5]: https://developer.android.com/reference/com/google/android/gms/wearable/MessageApi.html
-[6]: https://developer.android.com/google/play-services/location.html
-[7]: https://developer.android.com/reference/com/google/android/gms/location/FusedLocationProviderApi.html
-[8]: https://developer.android.com/reference/com/google/android/gms/location/Geofence.html
-[9]: https://developer.android.com/tools/support-library/features.html#v7-appcompat
-[10]: http://www.google.com/design/spec/layout/metrics-keylines.html
-[11]: http://www.google.com/design/spec/animation/meaningful-transitions.html
-[12]: https://developer.android.com/reference/android/support/v7/widget/RecyclerView.html
-[13]: http://developer.android.com/reference/android/support/wearable/view/GridViewPager.html
-[14]: http://developer.android.com/reference/android/support/wearable/view/DotsPageIndicator.html
-[15]: http://developer.android.com/reference/android/support/wearable/view/WatchViewStub.html
-[16]: http://developer.android.com/reference/android/view/View.OnApplyWindowInsetsListener.html
-[17]: https://developer.android.com/training/wearables/apps/layouts.html#UiLibrary
-[18]: http://developer.android.com/reference/android/support/wearable/view/DismissOverlayView.html
-[19]: http://developer.android.com/reference/android/support/wearable/activity/ConfirmationActivity.html
-[20]: http://developer.android.com/reference/android/support/wearable/view/CardScrollView.html
-[21]: http://developer.android.com/reference/android/support/wearable/view/CircledImageView.html
-[22]: https://developer.android.com/training/wearables/apps/creating.html#Install
-[23]: https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout.html
-[24]: https://developer.android.com/reference/android/support/design/widget/FloatingActionButton.html
-[25]: http://android-developers.blogspot.com/2015/05/android-design-support-library.html
-[26]: http://developer.android.com/reference/android/support/wearable/view/ActionPage.html
-
 Pre-requisites
 --------------
 
@@ -68,32 +41,4 @@ Getting Started
 This sample uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
-Support
--------
 
-- Google+ Community: https://plus.google.com/communities/105153134372062985968
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
-
-License
--------
-
-Copyright 2017 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
