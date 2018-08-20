@@ -1,9 +1,7 @@
-# SingleActivityProject
-Single Activity Pattern with Multiple Fragments
 
 Single Activity Pattern
 ===================================
-
+Single Activity Pattern with Multiple Fragments
 Pre-requisites
 --------------
 
